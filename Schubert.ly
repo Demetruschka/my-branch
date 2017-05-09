@@ -23,7 +23,7 @@ hfmCopyright = \markup{ \with-url #"www.creativecommons.org/licenses/by-sa/4.0/"
     title = "18. Der stürmische Morgen"
     opus = "Die Winterreise op. 89 D 911"
     composer = "Franz Schubert"
-    copyright = \hfmCopyright
+    copyright = ##f   % \hfmCopyright
     tagline = ##f
 }
 
@@ -63,7 +63,7 @@ text = \lyricmode { \small
 right = \relative c' {
     \global
     d16(_\markup { \dynamic f > } e cis d) e8-. a-. fis16(_> g e fis) g8-. d'-.
-    gis,16^>( d' a^> d bes^> d b^> d) <b d f gis>4 r8 \tuplet 3/2 { d,16( cis c }
+    R1
     b8) \tuplet 3/2 { f'16_( d bes } a8)^! <e'' a cis>^! <f a d>4 r8 d,8-.
     d8.( e16 d e f g) a4( d,8) \noBeam a'-.
     a8.[-. d16-. cis8-. d]-. e4.^> a,8-.
