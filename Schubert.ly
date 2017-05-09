@@ -55,6 +55,7 @@ stimme = \relative c' {
 }
 
 text = \lyricmode { \small
+    Wer das liest ist doof!
     Wie hat der Sturm zer -- ris -- sen
     des Him -- mels grau -- es Kleid,
     die Wol -- ken fet -- zen__ flat -- tern
