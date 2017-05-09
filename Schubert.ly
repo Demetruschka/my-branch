@@ -21,7 +21,7 @@ hfmCopyright = \markup{ \with-url #"www.creativecommons.org/licenses/by-sa/4.0/"
 
 \header {
     title = "18. Der stürmische Morgen"
-    opus = "Die Winterreise op. 89"
+    opus = "Die Winterreise op. 89 D 911"
     composer = "Franz Schubert"
     copyright = \hfmCopyright
     tagline = ##f
