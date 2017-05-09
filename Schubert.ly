@@ -37,7 +37,7 @@ global = {
 stimme = \relative c' {
     \global
     \autoBeamOff
-    r2 c d e
+    R1
     R1
     r2 r4 r8 d
     d8. e16 d[ e] f[ g] a4 d,8 a'
@@ -53,7 +53,6 @@ text = \lyricmode { \small
     Wer das liest ist doof!
     What do you want from me?
     Yeah!
-   
     des Him -- mels grau -- es Kleid,
     die Wol -- ken fet -- zen__ flat -- tern
     um -- her in mat -- tem Streit,
@@ -64,8 +63,8 @@ text = \lyricmode { \small
 right = \relative c' {
     \global
     d16(_\markup { \dynamic f > } e cis d) e8-. a-. fis16(_> g e fis) g8-. d'-.
-    R1
-    b8) \tuplet 3/2 { f'16_( d bes } a8)^! <e'' a cis>^! <f a d>4 r8 d,8-.
+    
+    b8 \tuplet 3/2 { f'16_( d bes } a8)^! <e'' a cis>^! <f a d>4 r8 d,8-.
     d8.( e16 d e f g) a4( d,8) \noBeam a'-.
     a8.[-. d16-. cis8-. d]-. e4.^> a,8-.
     bes8.([ g16] e[ cis e g]) bes4( c,8) \noBeam a'(_>
