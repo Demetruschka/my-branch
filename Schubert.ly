@@ -3,12 +3,7 @@
 #(set-global-staff-size 18)
 
 \paper{
-    top-margin = 10
-    bottom-margin = 10
-    left-margin = 10
-    right-margin = 10
-    indent = 10
-    short-indent = 2
+    
 
    ragged-last-bottom = ##f
 }
