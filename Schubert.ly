@@ -21,7 +21,7 @@ hfmCopyright = \markup{ \with-url #"www.creativecommons.org/licenses/by-sa/4.0/"
 
 \header {
     title = "18. Der stürmische Morgen"
-    opus = "Die Winterreise op. 89"
+    opus = "Die Winterreise op. 89 D 911"
     composer = "Franz Schubert"
     copyright = ##f   % \hfmCopyright
     tagline = ##f
@@ -37,8 +37,8 @@ global = {
 stimme = \relative c' {
     \global
     \autoBeamOff
-    r2 c d' e,
-    R1
+    r2 c d e
+    R1 R1
     r2 r4 r8 d
     d8. e16 d[ e] f[ g] a4 d,8 a'
     a8. d16 cis8 d e4. a,8
@@ -86,18 +86,20 @@ left = \relative c {
     f-.[ gis-.] a,^! <a a'>^!<d, d'>4 r8 \voiceTwo <bes bes'>
 }
 
+troll = \relative c {
+    \global
+    e8 d fis4-. gis-.
+    cis8 b d4-. e-.
+    b8 a cis4-. e-. a2.
+
 \score {
     <<
-        
         \new Staff { \stimme \addlyrics { \text } }
-           \new PianoStaff <<
+        \new PianoStaff <<
             \new Staff = "up" { \right }
             \new Staff = "down" { \clef bass \left }
-        \new Staff = "down" { \clef bass \left } 
+            \new Staff = "troll" { \troll }
         >>
-         
-         
-        
     >>
     \layout { }
 }
