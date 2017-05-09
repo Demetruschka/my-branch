@@ -37,7 +37,7 @@ global = {
 stimme = \relative c' {
     \global
     \autoBeamOff
-    R1
+    r2 c d e
     R1
     r2 r4 r8 d
     d8. e16 d[ e] f[ g] a4 d,8 a'
@@ -53,6 +53,7 @@ text = \lyricmode { \small
     Wer das liest ist doof!
     What do you want from me?
     Yeah!
+   
     des Him -- mels grau -- es Kleid,
     die Wol -- ken fet -- zen__ flat -- tern
     um -- her in mat -- tem Streit,
