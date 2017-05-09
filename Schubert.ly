@@ -3,7 +3,7 @@
 #(set-global-staff-size 18)
 
 \paper{
-    
+
 
    ragged-last-bottom = ##f
 }
@@ -37,8 +37,8 @@ global = {
 stimme = \relative c' {
     \global
     \autoBeamOff
-    R1
-    R1
+    r2 c d e
+    R1 R1
     r2 r4 r8 d
     d8. e16 d[ e] f[ g] a4 d,8 a'
     a8. d16 cis8 d e4. a,8
