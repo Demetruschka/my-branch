@@ -3,12 +3,7 @@
 #(set-global-staff-size 18)
 
 \paper{
-    top-margin = 10
-    bottom-margin = 10
-    left-margin = 10
-    right-margin = 10
-    indent = 10
-    short-indent = 2
+    
 
    ragged-last-bottom = ##f
 }
@@ -55,7 +50,9 @@ stimme = \relative c' {
 }
 
 text = \lyricmode { \small
-    Wie hat der Sturm zer -- ris -- sen
+    Wer das liest ist doof!
+    What do you want from me?
+    Yeah!
     des Him -- mels grau -- es Kleid,
     die Wol -- ken fet -- zen__ flat -- tern
     um -- her in mat -- tem Streit,
