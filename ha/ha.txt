@@ -1,0 +1,7 @@
+Freiwillige Hausaufgabe für mad git skillz!
+
+- Füge dieser Datei irgendwas hinzu und mache einen commit (incl. push).
+- Erstelle in diesem Ordner eine Datei (mit beliebigem Namen) und schreibe 
+irgendwas rein.
+- Füge die Datei einem commit hinzu und push!
+- Fertig!
