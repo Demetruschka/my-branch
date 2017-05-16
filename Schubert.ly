@@ -44,7 +44,7 @@ stimme = \relative c' {
     a8. d16 cis8 d e4. a,8
     bes8. g16 e[ cis] e[ g] bes4 cis,8 a'
     d, a' e a fis es' d bes
-    gis4 a d, r
+    gis4 a 
     r2 r4 r8 bes'
     \bar ";"
 }
