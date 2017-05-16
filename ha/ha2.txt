@@ -1,0 +1,6 @@
+Zweite Hausaufgabe für mad-git-skillz!
+
+- Erstelle einen neuen Branch.
+- Erstelle eine neue Datei und füge sie dem Index hinzu.
+- Ändere den Inhalt der Datei und mache einen commit.
+- Erstelle einen Pull-Request in den Master-Branch.
