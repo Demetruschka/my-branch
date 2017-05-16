@@ -11,7 +11,7 @@
 hfmCopyright = \markup{ \with-url #"www.creativecommons.org/licenses/by-sa/4.0/"
     \general-align #Y #CENTER {
             \column {
-                "Hochschule für Musik Karlsruhe 2017"
+                "Hochschule für Musik Karlsruhe 2018"
                 "Creative Commons Attribution–ShareAlike 4.0 International License"
                 "Informationen zur Lizenz unter http://creativecommons.org/licenses/by-sa/4.0/"
             }
