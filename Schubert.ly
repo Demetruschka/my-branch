@@ -20,7 +20,7 @@ hfmCopyright = \markup{ \with-url #"www.creativecommons.org/licenses/by-sa/4.0/"
 
 
 \header {
-    title = "18. Der stürmische Morgen danach"
+    title = "18. Der stürmische Morgen danach davor?"
     opus = "Die Winterreise op. 89 D 911"
     composer = "Franz Schubert"
     copyright = ##f   % \hfmCopyright
