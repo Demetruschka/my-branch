@@ -79,7 +79,7 @@ left = \relative c {
     gis,16^>( d' a^> d bes^> d b^> d) <b d f gis>4 r8 \tuplet 3/2 { d,16( cis c } \break
     b8) \tuplet 3/2 { f'16_( d bes } a8)^! <a a'>^! <d, d'>4 r8 d'-.
     d8.( e16 d e f g) a4( d,8) \noBeam a'-.
-    a8.[-. d16-. cis8-. d]-. e4.^> a,8-.
+    a8.[-. d8-. cis8-. d]-. e4.^> a,8-.
     bes8.([ g16] e[ cis e g]) bes4( c,8) \noBeam a'(_>
     d,)[ a'_>( e) a]_>( fis)[ <es es'>-. <d d'>-. <bes bes'>-.]
     <gis gis'>4_> <a a'>_> <d, d'>8 gis8-.[ b-. d-.]
